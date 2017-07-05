@@ -1,0 +1,13 @@
+# coding: utf-8
+
+nome = input("Digite seu Nome: ")
+print("olá ", nome, ". Parabéns, que nome bonito""")
+min = int(input("Digite quantos minutos oram falados no mês: "))
+if(min < 200):
+	conta = min * 0.20
+else:
+	if(min <= 400):
+		conta = min * 0.18
+	else:
+		conta = min * 0.15
+print("O total da conta é R$%.2f!!!" %conta)
