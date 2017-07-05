@@ -1,0 +1,21 @@
+# coding: utf-8
+
+nome = input("Digite seu Nome: ")
+if(nome ==  "Pedro") or (nome == "pedro"):
+	print('''
+		Puta
+		Que nome bosta
+		Tchau''')
+	exit(0)
+print("olá ", nome, ". Parabéns, que nome bonito""")
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo numero: "))
+soma = num1 + num2
+print("O resultado é: ", soma)
+if(num1 > num2):
+	print(num1, " é maior!")
+if(num1 < num2):
+	print(num2," é maior!")
+if(num1 == num2):
+	print("Ambos os números são iguais...")
